@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Colour Game</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div id="title">
+	<h1 id="gameTitle">RGB Colour Guessing Game</h1>
+	<h1 id="gameInstr">Find the colour: <br><span id="colourDisplay"></span></h1>
+</div>
+
+<div id="controls">
+	<button id="reset">New Colours</button>
+	<span id="message"></span>
+	<button class="mode">EASY</button>
+	<button class="mode selected">HARD</button>
+</div>
+
+<div id="container">
+	<div class="square"></div>
+	<div class="square"></div>
+	<div class="square"></div>
+	<div class="square"></div>
+	<div class="square"></div>
+	<div class="square"></div>
+</div>
+
+<script type="text/javascript" src="actions.js"></script>
+</body>
+</html>
